@@ -56,7 +56,7 @@ header{
     font-family: "roboto", sans-serif;
     font-weight: 500;
     font-size: 40px;
-    color:pink;
+    color:#ffb84e;
     text-decoration: none;
     background-color: #24252A;
 }
@@ -72,7 +72,7 @@ header{
 }
   
 .main_graphic .btn:hover {
-    background-color: #ffb84e;;
+    background-color: #ffb84e;
 }
 
 
