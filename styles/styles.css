@@ -3,14 +3,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
 }
 /* NAVIGATION BAR */
 li, a, button{
     font-family: "roboto", sans-serif;
-    font-weight: 500;
-    font-size: 21px;
-    color: #edf0f1;
     text-decoration: none;
 }
 header{
@@ -18,10 +14,15 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 20px 10%;
+    background-color: #24252A;
+    font-weight: 500;
+    font-size: 21px;
+    color: #edf0f1;
 }
 .logo{
     cursor: pointer;
     margin-right: auto;
+    color: white;
 }
 .nav_links{
     list-style: none;
@@ -33,7 +34,7 @@ header{
 .nav_links li a {
     transition: all 0.3s ease 0s;
 }
-.nav_links li a:hover {
+a:hover {
     color: #ffb84e;
 }
 
@@ -49,33 +50,85 @@ header{
     width: 100%;
     height: auto;
 }
-.main_graphic .graphic_text{
+.main_graphic .graphic_content{
     position: absolute;
-    top: 50%;
-    left: 20%;
+    width: 100%;
+    top: 30%;
+}
+.main_heading {
+    position: relative;
     font-family: "roboto", sans-serif;
+    background-color: rgba(36, 37, 42, 0.6);
     font-weight: 500;
     font-size: 40px;
-    color:#ffb84e;
+    text-align: center;
+    color: #edf0f1;
     text-decoration: none;
-    background-color: #24252A;
 }
 .main_graphic .btn {
-    background-color: #555;
-    color: white;
-    font-size: 16px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    width: 15%;
+    transform: translate(-50%, -50%);
+    background-color: #ffb84e;
+    color:  rgba(36, 37, 42, 1);
+    font-size: 20px;
     padding: 12px 24px;
-    margin-left: 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
 }
-  
 .main_graphic .btn:hover {
-    background-color: #ffb84e;
+    background-color: rgba(36, 37, 42, 1);
+    color: #edf0f1;
+}
+.spacer {
+    height: 50px;
 }
 
+/* Sectioned page styling*/
+.half_page{
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+#fish_dish{
+    width: 100%;
+    height: auto;
+}
+#fom_btn {
+    float: right;
+    color: #ffb84e;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+#fom_btn:hover{
+    text-decoration: underline;
+}
+.w3-half{
+    text-align: center;
+}
+.quarter{
+    width: 100%;
+    text-align: left;
+}
 
-.footer{
+/* Footer Content */
+.footer {
     color: #edf0f1;
+    height: auto;
+    background-color: #24252A;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+.footer li {
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
 }

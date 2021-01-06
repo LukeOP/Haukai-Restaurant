@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haukai Restaurant</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/f9e3a5937f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -12,12 +14,12 @@
         <img class="logo" src="images/Haukai Logo 65H No BG.png" alt="Haukai logo">
         <nav>
             <ul class="nav_links">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Reservations</a></li>
                 <li><a href="#">Maori Culture</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -25,13 +27,47 @@
     <main>
         <div class="main_graphic">
             <img src="images/Restaurant_Main_Image2.png" alt="Restaurant Main Image">
-            <div class="graphic_text">Premium food in Northland<button class="btn">Book a table!</button></div>
-            
+            <div class="graphic_content"><h1 class="main_heading">Premium food in Northland</h1>
+                <button class="btn" href="#">Book a table!</button></div>
         </div>
+        <div class="spacer"></div>
+        <div class="w3-row">
+            <div class="w3-half w3-container">
+                <div class="half_page">
+                    <h2>Our Food</h2> 
+                    <p>Here is some content about the food and service provided at Haukai Restaurant. Nunc finibus sem sed facilisis pellentesque. 
+                        Vivamus lacinia rhoncus massa, eu viverra lorem aliquam ut. Etiam vehicula tincidunt enim ut.</p>
+                    <div href="contact.html" id="fom_btn">View our menu...</div><br><br>
+                    
+
+                    <h2>Karakia</h2> 
+                    <p>Here is some content about karakia. Nunc finibus sem sed facilisis pellentesque. 
+                        Vivamus lacinia rhoncus massa, eu viverra lorem aliquam ut. Etiam vehicula tincidunt enim ut.</p>
+                    <div id="fom_btn" a href="contact.html">Find out more...</div><br><br>
+     
+                    <h2>Maori Culture</h2> 
+                    <p>Here is some content about Maori Culture. Nunc finibus sem sed facilisis pellentesque. 
+                        Vivamus lacinia rhoncus massa, eu viverra lorem aliquam ut. Etiam vehicula tincidunt enim ut.</p>
+                </div>
+            </div>
+            <div class="w3-half w3-container">
+                <div class="half_page">
+              <img id="fish_dish" src="images/Fish_Dish.jpg" alt="Fish dish photo">
+              </div>
+            </div>
+          </div>
+          <div class="spacer"></div>
     </main>
     <!-- Footer that is used across all the pages of our website -->
     <footer class="footer">
-      <p>©Copyright 2021 Haukai Restaurant. All rights reversed.</p>
+        <ul>
+            <li>Sitemap</li>
+            <li>Privacy policy</li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li>Location</li>
+            <li>Employee Login</li>
+        </ul>
+      <p>©Copyright 2021 Haukai Restaurant. All rights reserved.</p>
     </footer>
 </body>
 </html>
