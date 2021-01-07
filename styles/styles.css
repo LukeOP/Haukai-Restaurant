@@ -50,6 +50,8 @@ header{
 }
 .small_menu{
     display: none;
+    height: 0;
+    color: transparent;
 }
 
 /* MAIN CONTENT */
@@ -227,6 +229,7 @@ header{
 .small_menu{
     width: 100%;
     height: auto;
+    min-height: 20px;
     font-size: 4vw;
     color: #edf0f1;
     background-color:#24252A;
