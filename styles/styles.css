@@ -74,7 +74,7 @@ header{
     position: absolute;
     top: 150%;
     left: 50%;
-    width: 15%;
+    width: 300px;
     transform: translate(-50%, -50%);
     background-color: #ffb84e;
     color:  rgba(36, 37, 42, 1);
@@ -83,6 +83,7 @@ header{
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    text-align: center;
 }
 .main_graphic .btn:hover {
     background-color: rgba(36, 37, 42, 1);
@@ -102,11 +103,6 @@ header{
     position: relative;
     width: 90%;
     left: 5%;
-}
-#half_page_image{
-    width: 100%;
-    max-width: 800px;
-    height: auto;
 }
 .fom_btn {
     float: right;
@@ -146,7 +142,6 @@ header{
     height: auto;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 .beverage_container {
     width: 60%;
@@ -208,7 +203,51 @@ td, th{
     font-size: 16px;
 }
 
+@media screen and (max-width:900px){
 
+p{
+    font-size: 3vw;
+}
+.nav_links{
+    display: none;
+}
+.main_heading{
+    font-size: 4vw;
+}
+.w3-half{
+    width: 100%;
+}
+#book_btn{
+    width: 25vw;
+    font-size: 2vw;
+}
+.large_image{
+    display: none;
+}
+.half_page{
+    width: 100%;
+    left: 0%;
+    text-align: center;
+}
+.beverages-heading-left, .beverages-heading-right{
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+}
+.beverages-left{
+    width: 96%;
+    text-align: left; 
+    margin-left: 2%; 
+}
+.beverages-right{
+    width: 96%;
+    text-align: left; 
+    margin-left: 2%; 
+}
+.spacer_large{
+    display: none;
+}
+}
 
 
 
