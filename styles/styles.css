@@ -13,6 +13,9 @@ p {
 .Link {
     display: block;
   }
+.hamburger{
+    display: none;
+}
 li, a, button{
     text-decoration: none;
 }
@@ -163,6 +166,9 @@ td, th{
     text-align: left;
     font-size: 20px;
 }
+#three_img{
+    display: none;
+}
 .beverages-left{
     width: 60%; 
     margin-left: 30%; 
@@ -203,23 +209,28 @@ td, th{
     color: #ffb84e;
 }
 .footer p{
-    font-size: 16px;
+    font-size: 12px;
+}
+#privacy_container{
+    width: 60%;
+    margin-left: 20%;
+}
+#privacy_container li{
+    font-size: 20px;
 }
 /* -------------SCREEN SIZE CHANGE-------------- */
 
 @media screen and (max-width:900px){
 header{
     padding-left: 2%;
-    display: none;
 }
 .small_menu{
-    display: block;
     width: 100%;
     height: auto;
     font-size: 4vw;
     color: #edf0f1;
-    background-color: #24252A;
-    text-align: center;
+    background-color:#24252A;
+    padding-left: 3vw;
 }
 .small_menu:hover{
     color:#ffb84e
@@ -235,6 +246,9 @@ p{
 }
 #main_img{
     content: url("../images/Restaurant_Main_Image_900.jpg");
+}
+#appetizer_img{
+    content: url("../images/ice-cream_dessert_800W.jpg");
 }
 .w3-half{
     width: 100%;
@@ -261,6 +275,16 @@ p{
     text-align: left; 
     margin-left: 2%; 
 }
+#three_img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img_3rd{
+    width: 30%;
+    height: auto;
+    margin-left: 2%;
+}
 .spacer_large{
     display: none;
 }
@@ -271,6 +295,28 @@ p{
     text-align: center;
 }
 .quarter p{
+    font-size: 3vw;
+}
+.nav_links{
+    display: none;
+}
+.hamburger {
+    display: block;
+    position: absolute;
+    right: 10vw;
+    top: 40px;
+  }
+#privacy_container{
+    width: 96%;
+    margin-left: 2%;
+}
+#privacy_container h1{
+    font-size: 5vw;
+}
+#privacy_container h2{
+    font-size: 4vw;
+}
+#privacy_container li{
     font-size: 3vw;
 }
 }
