@@ -10,9 +10,6 @@ p {
     font-size: 20px;
 }
 /* NAVIGATION BAR */
-.icon{
-    display: none;
-}
 .Link {
     display: block;
   }
@@ -34,12 +31,6 @@ header{
     margin-right: auto;
     color: white;
 }
-.koru{
-    cursor: pointer;
-    margin-right: auto;
-    color: white;
-    display: none;
-}
 .nav_links{
     list-style: none;
 }
@@ -53,6 +44,9 @@ header{
 }
 .nav_links li:hover {
     color: #ffb84e;
+}
+.small_menu{
+    display: none;
 }
 
 /* MAIN CONTENT */
@@ -211,10 +205,24 @@ td, th{
 .footer p{
     font-size: 16px;
 }
+/* -------------SCREEN SIZE CHANGE-------------- */
 
 @media screen and (max-width:900px){
 header{
     padding-left: 2%;
+    display: none;
+}
+.small_menu{
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 4vw;
+    color: #edf0f1;
+    background-color: #24252A;
+    text-align: center;
+}
+.small_menu:hover{
+    color:#ffb84e
 }
 .icon{
     display: block;
@@ -224,6 +232,9 @@ p{
 }
 .main_heading{
     font-size: 4vw;
+}
+#main_img{
+    content: url("../images/Restaurant_Main_Image_900.jpg");
 }
 .w3-half{
     width: 100%;
@@ -245,12 +256,7 @@ p{
     width: 100%;
     margin-left: 0%;
 }
-.beverages-left{
-    width: 96%;
-    text-align: left; 
-    margin-left: 2%; 
-}
-.beverages-right{
+.beverages-left, .beverages-right{
     width: 96%;
     text-align: left; 
     margin-left: 2%; 
@@ -267,19 +273,4 @@ p{
 .quarter p{
     font-size: 3vw;
 }
-}
-
-
-
-
-
-
-
-
-
-/* TESTING */
-.red{
-    height: 600px;
-    width: 100%;
-    background-color: red;
 }
