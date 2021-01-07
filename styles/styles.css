@@ -10,9 +10,6 @@ p {
     font-size: 20px;
 }
 /* NAVIGATION BAR */
-.Link {
-    display: block;
-  }
 .hamburger{
     display: none;
 }
@@ -199,6 +196,7 @@ td, th{
     text-align: center;
     padding: 10px;
     font-size: 13px;
+    margin-top: auto;
 }
 .footer li {
     font-size: 13px;
@@ -213,12 +211,18 @@ td, th{
 .footer p{
     font-size: 12px;
 }
-#privacy_container{
+#center_container{
     width: 60%;
     margin-left: 20%;
 }
-#privacy_container li{
+#center_container li{
     font-size: 20px;
+}
+.indent{
+    margin-left: 30px;
+}
+.link:hover{
+    color: #ffb84e;
 }
 /* -------------SCREEN SIZE CHANGE-------------- */
 
