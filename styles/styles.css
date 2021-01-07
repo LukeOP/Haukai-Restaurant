@@ -228,8 +228,7 @@ header{
 }
 .small_menu{
     width: 100%;
-    height: auto;
-    min-height: 50px;
+    height: 50px;
     font-size: 5vw;
     color: #edf0f1;
     background-color:#24252A;
