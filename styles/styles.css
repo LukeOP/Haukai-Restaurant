@@ -216,14 +216,6 @@ td, th{
 header{
     padding-left: 2%;
 }
-.logo{
-    display: none;
-}
-.koru{
-    display: block;
-    cursor: pointer;
-    margin-right: auto;
-}
 .icon{
     display: block;
 }
