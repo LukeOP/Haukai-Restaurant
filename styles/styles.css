@@ -34,6 +34,12 @@ header{
     margin-right: auto;
     color: white;
 }
+.koru{
+    cursor: pointer;
+    margin-right: auto;
+    color: white;
+    display: none;
+}
 .nav_links{
     list-style: none;
 }
@@ -211,6 +217,7 @@ header{
     padding-left: 2%;
 }
 .logo{
+    display: none;
 }
 .koru{
     display: block;
