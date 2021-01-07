@@ -207,6 +207,16 @@ td, th{
 }
 
 @media screen and (max-width:900px){
+header{
+    padding-left: 2%;
+}
+.logo{
+}
+.koru{
+    display: block;
+    cursor: pointer;
+    margin-right: auto;
+}
 .icon{
     display: block;
 }
