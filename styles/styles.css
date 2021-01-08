@@ -224,6 +224,9 @@ td, th{
 .link:hover{
     color: #ffb84e;
 }
+#fish_img{
+    max-width: 800px;
+}
 /* -------------SCREEN SIZE CHANGE-------------- */
 
 @media screen and (max-width:900px){
@@ -318,5 +321,10 @@ p{
 }
 #privacy_container li{
     font-size: 3vw;
+}
+}
+@media screen and (max-width: 450px){
+#fish_img{
+    content: url(../images/Fish_Dish_450W.jpg);
 }
 }
