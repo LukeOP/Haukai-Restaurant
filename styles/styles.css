@@ -1,50 +1,39 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100;1,300&display=swap');*/
 
-
-
-
 html {
-    box-sizing: border-box
-}
-
-*,*:before,*:after {
-    box-sizing: inherit
-}
-html {
+    box-sizing: border-box;
+    overflow-x: hidden;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
-
+*,*:before,*:after {
+    box-sizing: inherit;
+}
 body {
     margin: 0
 }
-
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
     display: block
 }
 a {
-    background-color: transparent
+    background-color: transparent;
+    color: inherit;
 }
 b,strong {
-    font-weight: bolder
+    font-weight: bolder;
 }
 img {
-    border-style: none
+    border-style: none;
+    vertical-align: middle;
 }
 html,body {
     font-family: Verdana,sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
-
-html {
-    overflow-x: hidden
-}
-
 h1 {
     font-size: 36px
 }
-
 h2 {
     font-size: 30px
 }
@@ -53,17 +42,10 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 400;
     margin: 10px 0
 }
-img {
-    vertical-align: middle
-}
-
-a {
-    color: inherit
-}
-.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before, .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after {
+.w3-container:after,.w3-container:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before, .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after {
     content: "";
     display: table;
-    clear: both
+    clear: both;
 }
 
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter {
@@ -78,7 +60,7 @@ a {
 .w3-container,.w3-panel {
     padding: 0.01em 16px
 }
-
+/* END OF W3 STYLING */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -88,6 +70,10 @@ a {
 }
 p {
     font-size: 20px;
+}
+main{
+    margin: auto;
+    max-width: 1400px;
 }
 /* NAVIGATION BAR */
 .hamburger{
@@ -111,6 +97,9 @@ header{
     margin-right: auto;
     color: white;
 }
+#logo{
+    max-height: 65px;
+}
 .nav_links{
     list-style: none;
 }
@@ -130,7 +119,9 @@ header{
     height: 0;
     color: transparent;
 }
-
+.w3-row{
+    background-color:rgba(36,37,42,0.04) ;
+}
 /* MAIN CONTENT */
 
 /* Large Homepage Graphic */
@@ -338,7 +329,7 @@ p{
     width: 100%;
 }
 #book_btn{
-    width: 25vw;
+    width: 30vw;
     font-size: 3vw;
 }
 .large_image{
@@ -387,8 +378,9 @@ p{
 .hamburger {
     display: block;
     position: absolute;
-    right: 10vw;
-    top: 40px;
+    right: 5vw;
+    top: 20px;
+    max-height: 30px;
   }
 #privacy_container{
     width: 96%;
