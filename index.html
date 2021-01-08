@@ -26,19 +26,6 @@
           <img src="images/hamburger.jpg"></img>
         </a>
     </header>
-        <script>
-            function hiddenMenu() {
-              var x = document.getElementsByClassName("small_menu");
-              var i;
-              for (i = 0; i < x.length; i++){
-              if (x[i].style.display === "block") {
-                x[i].style.display = "none";
-              } else {
-                x[i].style.display = "block";
-              }
-            }
-            }
-            </script>
         <a class="small_menu" href="index.html">Home</a>
         <a class="small_menu" href="menu.html">Menu</a>
         <a class="small_menu" href="reservations.html">Reservations</a>
@@ -89,4 +76,17 @@
       <p>©Copyright 2021 Haukai Restaurant. All rights reserved.</p>
     </footer>
 </body>
+<script>
+    function hiddenMenu() {
+      var x = document.getElementsByClassName("small_menu");
+      var i;
+      for (i = 0; i < x.length; i++){
+      if (x[i].style.display === "block") {
+        x[i].style.display = "none";
+      } else {
+        x[i].style.display = "block";
+      }
+    }
+    }
+    </script>
 </html>
