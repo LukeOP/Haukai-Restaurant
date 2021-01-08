@@ -253,15 +253,12 @@ p{
 #main_img{
     content: url("../images/Restaurant_Main_Image_900.jpg");
 }
-#appetizer_img{
-    content: url("../images/ice-cream_dessert_800W.jpg");
-}
 .w3-half{
     width: 100%;
 }
 #book_btn{
     width: 25vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .large_image{
     display: none;
