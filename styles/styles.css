@@ -396,9 +396,5 @@ p{
     font-size: 3vw;
 }
 }
-@media screen and (max-width: 450px){
-#fish_img{
-    content: url(../images/Fish_Dish_450W.jpg);
-}
-}
+
 
